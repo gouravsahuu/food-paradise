@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     background-color: #fcfcfc;
 }
@@ -11,6 +14,9 @@ body {
 #nav-2 {
     background-color: #2bb673;
 }
+#nav-main>img{
+    height: 80px;
+}
 #nav-2>div {
      display: flex;
      background-color: #2bb673;
@@ -18,6 +24,13 @@ body {
      width: 70%;
      margin: auto;
      justify-content: space-between;
+}
+#nav-2 button{
+    border: none;
+    background-color: #2bb673;
+    font-size: 18px;
+    color: white;
+    height: 40px;
 }
 #signin-section {
     display: flex;
@@ -113,7 +126,17 @@ body {
     margin: auto;
     height: 250px;
 }
-
+.grey{
+    color: #6d6d6d;
+    font-size: 24px;
+}
+.blue{
+    color: #2185ff;
+    font-size: 20px;
+}
+.desc{
+    font-size: 12px;
+}
 /* bottom-mid section */
 
 #bottom-mid{
@@ -134,9 +157,7 @@ body {
 #bottom-mid>h1{
     margin-top: 100px;
 }
-#bottom-mid>h1+div>h3 img{
-    height: 50px;
-}
+
 #icons>div{
     width: 22.5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -172,16 +193,71 @@ body {
   color: white;
   border-radius: 10px;
   width: 500px;
+  height: 106px;
 }
 
-#bottom-mid+h2+div,
-#bottom-mid+h2+div+div{
+#bottom-mid+p+div,
+#bottom-mid+p+div+div{
   width: 70%;
   margin: auto;
 }
-#bottom-mid+h2{
+#bottom-mid+p{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    font-size: 26px;
+    color: #8a8a8a;
+}
+.titles-icon{
+    font-size: 20px;
+    color: #666669;
+}
+.desc-icon{
+    font-size: 14px;
+    color : #9e9a99;
+}
+#petfinder{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#petfinder img{
+    height: 50px;
+}
+#petfinder p{
+    font-size: 20px;
+    color: #9e9a99;
+}
+#bottom-mid>p:nth-child(1){
+    font-size: 32px;
+    color: #666666;
+    text-align: center;
+    margin-top: 100px;
+}
+#bottom-mid>p:nth-child(3){
+    font-size: 26px;
+    color: #888888;
+    text-align: center;
+    margin-top: 50px;
+}
+.below-icon{
+    color: #8e8b89;
+    font-size: 20px;
+}
+.below-icon+button>p:nth-child(1){
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    font-weight: bolder;
+}
+.below-icon+button>p:nth-child(2){
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-weight: bolder;
 }
 
 
@@ -191,7 +267,7 @@ body {
     display: flex;
     width: 70%;
     margin: auto;
-    font-size: 14px;
+    font-size: 12px;
  }
  #footer ul {
     list-style-type: none;
@@ -207,4 +283,11 @@ body {
    text-align: center;
    font-size: 12px;
  }
+ #footer .bold-heading{
+    font-size: 14px;
+    font-weight: bolder;
+}
+#footer li{
+    padding: 3px;
+}
  
