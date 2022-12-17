@@ -1,0 +1,252 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+#nav-main {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+#nav-2 {
+   background-color: #2bb673;
+}
+#nav-2>div {
+    display: flex;
+    background-color: #2bb673;
+    color: white;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+#signin-section {
+   display: flex;
+   width : 25%;
+   justify-content: space-between;
+   align-items: center;
+}
+#signin-section>button {
+  height: 25px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+#signin-section>button:nth-child(2) {
+   background-color: #35619f;
+}
+#signin-section>button:nth-child(3) {
+   background-color: #666666;
+}
+#icons-section>img {
+   width: 40px;
+   height: 40px;
+   
+}
+#icons-section {
+   display: flex;
+   width: 15%;
+   justify-content: space-between;
+   margin: auto;
+}
+
+/* meat-free-deals */
+
+#meat-free-deals{
+   background-color: #f0f0f0;
+}
+
+#meat-free-deals-in{
+   width: 70%;
+   margin: auto;
+   padding-bottom: 25px;
+}
+#head{
+   display: flex;
+   align-items: center;
+}
+#head>h1{
+   margin: 0px;
+   padding: 0px;
+}
+#head+p,
+#head+p+p,
+#head+p+p+p{
+   margin: 0px;
+   padding: 0px;
+}
+
+#head+p+p+p{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#search-filter{
+   display: flex;
+   justify-content: space-between;
+}
+#search-filter>input{
+   width: 19%;
+   border: none;
+   height: 38px;
+   font-size: 16px;
+}
+#search-filter>select{
+   width: 17%;
+   border: none;
+   height: 38px;
+   font-size: 16px;
+}
+#search-filter>button{
+   width: 18%;
+   border: none;
+   height: 38px;
+}
+#search-filter>:nth-child(4){
+   background-color: #f53838;
+   color: white;
+   font-size: 16px;
+   font-weight: bolder;
+   border-radius: 7px;
+}
+#search-filter>:nth-child(5){
+   background-color: #04be5a;
+   color: white;
+   font-size: 16px;
+   font-weight: bolder;
+   border-radius: 7px;
+}
+/* cards section  */
+
+#cards{
+   display: grid;
+   width: 70%;
+   margin: auto;
+   grid-template-columns: repeat(2,1fr);
+   gap: 40px;
+}
+/* .mainDiv {
+   width:30%;
+} */
+.mainDiv{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 10px;
+}
+.mainDiv>img {
+   width: 100%;
+   /* position: relative; */
+}
+.midDiv button{
+   margin-left: 15px;
+   background-color: #f53838;
+   color: white;
+   font-size: 18px;
+   font-weight: bolder;
+   border: none;
+   border-radius: 7px;
+}
+
+.midDiv div{
+   margin-right: 15px;
+}
+.imgDiv{
+  display: flex;
+  margin-left: 15px;
+  width: 120px;
+  justify-content: space-evenly;
+}
+.expDiv{
+   margin-right: 15px;
+}
+.discount{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.discount-rate{
+   margin:0;
+   padding:0;
+   font-size: 24px;
+   color:#fb2222;
+   text-align: center;
+}
+.expiry{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+.exp{
+   margin: 0;
+   padding: 0;
+   font-size: 24px;
+   color:#8d8d8d;
+   text-align: center;
+}
+/* .off{
+   position: absolute;
+   top: 0;
+}
+.imageDesc{
+   position: absolute;
+   bottom: 0;
+} */
+
+#top-img>img,
+#bottom-img>img{
+   display: block;
+   margin: auto;
+}
+#top-img{
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+#bottom-img{
+   margin-top: 100px;
+}
+.midDiv{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.bottomDiv{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   padding: 5px;
+}
+.midDiv>div>img{
+   width: 25px;
+   height: 25px;
+}
+.midDiv>button{
+   width: 200px;
+   height: 40px;
+}
+.bottomDiv>div>img{
+   width:35px;
+   height: 35px;
+}
+
+/* footer-section */
+
+#footer{
+   display: flex;
+   width: 70%;
+   margin: auto;
+   font-size: 14px;
+}
+#footer ul {
+   list-style-type: none;
+}
+#footer-section{
+   padding-top: 10px;
+   padding-bottom: 20px;
+   background-color: #2bb673;
+   color: white;
+}
+#footer-section p{
+  margin: 0px;
+  text-align: center;
+  font-size: 12px;
+}
